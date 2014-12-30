@@ -1,0 +1,159 @@
+body {
+	text-align: center;
+	position: relative;
+	font-family: "Source San Pros";
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 60px;
+	font-family: "Oswald";
+	letter-spacing: 12px;
+	padding: 0;
+	margin: 0;
+}
+
+#headliners {
+	margin-top: 40px;
+}
+
+#welcome {
+	margin-bottom: 50px;
+}
+
+#nav {
+	padding: 0;
+	margin: 0;
+	word-spacing: 25px;
+	text-align: justify;
+	display: inline-block;
+	position: relative;
+	margin-left: -60px;
+	letter-spacing: 1px;
+
+}
+
+
+#nav li {
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: "Yanone Kaffeesatz";
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+	/*padding: 20px;*/
+}
+
+#nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	/*word-spacing: 10px;*/
+}
+
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #3399DD;
+}
+
+
+
+#dots {
+	display: block;
+	margin-bottom: 30px;
+	margin-left: -10px;
+}
+
+#pic {
+	float: left;
+	margin-right: 30px;
+	margin-top: -20px;
+}
+
+#profile {
+	display: inline-block;
+	margin: 30px auto;
+	width: 500px;
+}
+
+#intro {
+	word-spacing: 5px;
+	font-size: 18px;
+	text-align: left;
+	position: relative;
+}
+
+#intro p {
+	position: relative;
+}
+
+#diamond {
+	background-image: url("img/diamond01.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#diamond:hover {
+	background-image: url("img/diamond02.png");
+}
+
+#welcome {
+	display: none;
+}
+
+text {
+	display: block;
+}
+
+
+/*
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}*/
+
+
+
+#owl-demo {
+	margin-top: -30px !important;
+}
+
+#owl-demo .owl-item div{
+  padding: 5px;
+}
+
+#owl-demo .owl-item img{
+  display: block;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+
+.owl-buttons div {
+	font-family: 'Source San Pros' !important;
+	padding: 3px 10px !important;
+	border-radius: 3px !important;
+	-moz-border-radius: 3px !important;
+	-webkit-border-radius: 3px !important;
+}
+
+.owl-prev {
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}

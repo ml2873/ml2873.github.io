@@ -1,0 +1,67 @@
+<doctype! html>
+
+<head>
+	<title>Mickey Liao</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200' rel='stylesheet' type='text/css'>
+
+	<!-- Important Owl stylesheet -->
+	<link rel="stylesheet" href="owl.carousel/owl-carousel/owl.carousel.css">
+	<!-- Default Theme -->
+	<link rel="stylesheet" href="owl.carousel/owl-carousel/owl.theme.css">
+	<!--  jQuery 1.7+  -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<!-- Include js plugin -->
+	<script src="owl.carousel/owl-carousel/owl.carousel.js"></script>
+</head>
+
+<body>
+		<h2>Mickey Liao</h2>
+
+		<div id="nav">
+			<ul>
+				<li><a href="welcome.html">Welcome</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+	    </div>
+
+		
+	    <div id="dots">&#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226;</div>
+	   
+		
+		<div id="owl-demo" class="owl-carousel">
+		  <div><img src="img/pic1.png"></div>
+		  <div><img src="img/pic2.png"></div>
+		  <div><img src="img/pic3.png"></div>
+		  <div><img src="img/pic4.png"></div>
+		  <div><img src="img/pic5.png"></div>
+		  <div><img src="img/pic6.png"></div>
+		  <div><img src="img/pic7.png"></div>
+		  <div><img src="img/pic8.png"></div>
+		  <div><img src="img/pic9.png"></div>
+		</div>
+
+
+		<script>
+		$(document).ready(function() {
+			$("#owl-demo").owlCarousel({
+				navigation: true,
+				paginationSpeed: 1000,
+				slideSpeed: 1000,
+				singleItem: true,
+				autoHeight: true,
+				transitionStyle: "fade",
+				navigationText: ['&#9654;', '&#9654;']
+			});
+		});
+		</script>
+
+   
+
+</body>
+
+</html>
