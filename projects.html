@@ -2,25 +2,26 @@
 
 
 <head>
+	<meta charset="UTF-8">
 	<title>Mickey Liao</title>
+	<meta name="description" content="Mickey Liao - graphic, ux and ui designer.">
+	<meta name="keywords" content="mickey liao graphic designer ux ui">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">	
 
-	<!-- Important Owl stylesheet -->
 	<link rel="stylesheet" href="owl.carousel/owl-carousel/owl.carousel.css">
-	<!-- Default Theme -->
 	<link rel="stylesheet" href="owl.carousel/owl-carousel/owl.theme.css">
-	<!--  jQuery 1.7+  -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<!-- Include js plugin -->
 	<script src="owl.carousel/owl-carousel/owl.carousel.js"></script>
 </head>
 
+
 <body>
+	<div id="headliners">
 		<h2>Mickey Liao</h2>
 
 		<div id="nav">
@@ -31,27 +32,29 @@
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
 	    </div>
-
+	
 		
-	    <div id="dots">&#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226;</div>
-	   
+	    <div id="dots">
+	    	&#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226;
+	    </div>
+	</div>
 		
-		<div id="owl-demo" class="owl-carousel">
-		  <div><img src="img/pic1.png"></div>
-		  <div><img src="img/pic2.png"></div>
-		  <div><img src="img/pic3.png"></div>
-		  <div><img src="img/pic4.png"></div>
-		  <div><img src="img/pic5.png"></div>
-		  <div><img src="img/pic6.png"></div>
-		  <div><img src="img/pic7.png"></div>
-		  <div><img src="img/pic8.png"></div>
-		  <div><img src="img/pic9.png"></div>
-		</div>
+	<div id="portfolio" class="owl-carousel">
+		<div><img src="img/pic1.png"></div>
+		<div><img src="img/pic2.png"></div>
+		<div><img src="img/pic3.png"></div>
+		<div><img src="img/pic4.png"></div>
+		<div><img src="img/pic5.png"></div>
+		<div><img src="img/pic6.png"></div>
+		<div><img src="img/pic7.png"></div>
+		<div><img src="img/pic8.png"></div>
+		<div><img src="img/pic9.png"></div>
+	</div>
 
 
-		<script>
+	<script>
 		$(document).ready(function() {
-			$("#owl-demo").owlCarousel({
+			$("#portfolio").owlCarousel({
 				navigation: true,
 				paginationSpeed: 1000,
 				slideSpeed: 1000,
@@ -61,10 +64,7 @@
 				navigationText: ['&#9654;', '&#9654;']
 			});
 		});
-		</script>
-
-   
-
+	</script>
 </body>
 
 </html>
